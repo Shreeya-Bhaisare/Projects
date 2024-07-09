@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .blog-footer {
+            padding: 2.5rem 0;
+            color: #999;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-top: 0.05rem solid #e5e5e5;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">WebDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown" data-bs-theme="dark">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="htm.html">HTML</a></li>
+                            <li><a class="dropdown-item" href="cs.html">CSS</a></li>
+                            <li><a class="dropdown-item" href="javas.html">JavaScript</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="boots.html">Bootstrap <span
+                                        class="badge rounded-pill text-bg-success">New</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron p-3 p-md-5 text-white bg-secondary">
+        <div class="col-md-6 px-0">
+            <h3>Made By-</h3>
+            <h1 class="display-4 font-italic">Shreeya Bhaisare</h1>
+            <p class="lead my-3">3rd year B.Tech student majoring in computer science.</p>
+        </div>
+    </div>
+
+    <div class="container my-5">
+
+
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://source.unsplash.com/1400x450/?github"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>GitHub</h2>
+                <p>checkout my html and css projects from my github.</p>
+                <p><a class="btn btn-secondary" href="https://github.com/Shreeya-Bhaisare/CSS-HTML.git"
+                        role="button">GitHub »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://source.unsplash.com/1400x450/?resume"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Resume</h2>
+                <p>Refer resume for about me.</p>
+                <p><a class="btn btn-secondary"
+                        href="https://drive.google.com/file/d/1JdBm8HXw3rEa8GCS8dpmYq6Nlc-DVAy-/view?usp=drive_link"
+                        role="button">Resume »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://source.unsplash.com/1400x450/?linkedin"
+                    alt="Generic placeholder image" width="140" height="140">
+                <h2>Linkedin</h2>
+                <p>Checkout my linkedin profile.</p>
+                <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/shreeya-bhaisare-b98721264"
+                        role="button">Linkedin »</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+        <br>
+        <form>
+            <h3>For Query:</h3>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Your Email address:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <label for="exampleInputEmail1" class="form-label">Your Query:</label>
+            <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+    </div>
+    <footer class="blog-footer">
+        <p>Blog for Web Development using <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+                href="https://twitter.com/mdo">@LarRy</a>.</p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
