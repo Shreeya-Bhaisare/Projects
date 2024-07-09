@@ -1,0 +1,135 @@
+//Random Login Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>web</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        .head ul li a{
+            text-decoration: none;
+        }
+        .head ul li{
+            display: inline-block;
+            color: white;
+            margin: 7px;
+            padding-left: 90px;
+            padding-top: 20px;
+        }
+        .head{
+            font-size: 20px;
+        }
+        body{
+            background-image: url('https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg');
+            background-repeat: no-repeat;
+            background-size: cover; /* vh, bgheight, inline  elements nd block level*/
+        }
+        .search{
+            padding: 7px;
+            border: 2px solid orange;
+            border-radius: 10px;
+            
+        }
+        .heading{
+            font-size: 55px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 340px;
+            text-align: left;
+            margin-top: 70px;
+            margin-left: 115px;
+        }
+        .content{
+            font-size: 20px;
+            width: 570px;
+            text-align: left;
+            padding-left: 115px;
+            padding-top: 20px;
+        }
+        button{
+            padding: 10px;
+            width: 115px;
+            margin-left: 115px;
+            margin-top: 30px;
+            background-color:brown;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .box{
+            display: inline-block;
+            background-color: lightgray;
+            width: 320px;
+            height: 387px;
+            padding: 19px;
+            position: absolute;
+            margin-left: 121px;
+            margin-top: 65px;
+            border-radius: 10px;
+            opacity: 1;
+        }
+        .container{
+            display: inline-block;
+        }
+        .eh{
+            border-bottom: 2px solid brown;
+            padding: 10px;
+            font-size: 18px;
+            
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+          }
+          
+          .fa:hover {
+              opacity: 0.7;
+          }
+          
+          .fa-facebook {
+            background: #3B5998;
+            color: white;
+          }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <ul>
+            <li style="color:brown; font-size: 30px; font-family:'Times New Roman'"><b><i>LarRy</i></b></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Design</li>
+            <li>Contact</li>
+            <li><input class="search" type="text" placeholder="Type to Search"></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="heading"><b>Web Design & <span style="font-size:75px;">Development</span> Course</b></div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fuga facilis optio amet modi obcaecati sapiente nihil aut quas beatae! ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam rem sed perspiciatis vitae similique consectetur harum ex dignissimos explicabo!</div>
+        <button onclick="document.location='https://www.google.com/search?client=firefox-b-d&q=google'"><b>Join Us</b></button>
+    </div>
+    <div class="box">
+        <button style="margin-top: 20px; margin-left:100px" onclick="document.location='https://www.google.com/search?client=firefox-b-d&q=google'"><b>Login Here</b></button>
+        <br>
+        <br>
+        <div class="eh">Enter email here</div>
+        <div class="eh">Enter password here</div>
+        <button style="margin-bottom: 30px; margin-left:100px" onclick="document.location='https://www.google.com/search?client=firefox-b-d&q=google'"><b>Login</b></button>
+        <p style="text-align: center; font-size: 18px;">Dont have an account?</p>
+        <p style="text-align: center; font-size: 18px;"><a href="https://www.google.com/search?client=firefox-b-d&q=google">Sign up</a> here</p>
+        <br>
+        <p style="text-align: center;">Login with</p>
+        <!-- <div class="icon">
+            <a href="#" class="fa fa-facebook"></a>
+        </div> -->
+    </div>
+
+</body>
+</html>
