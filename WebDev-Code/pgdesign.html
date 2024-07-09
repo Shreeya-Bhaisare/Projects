@@ -1,0 +1,117 @@
+//Simple webpage design.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: aquamarine;
+            padding: 60px;
+            text-align: center;
+            font-size: 35px;
+        }
+        .head{
+            font-size: 20px;
+            background-color: grey;
+        }
+        .head ul li a{
+            text-decoration: none;
+        }
+        .head ul li{
+            display: inline-block;
+            color: white;
+            margin: 7px;
+            padding:15px;
+            padding-left: 105px;
+        }
+        .search{
+            padding: 7px;
+            border: 2px solid black;
+            border-radius: 10px;
+            
+        }
+        .img1
+        {
+            height: 20vh;
+            width: 30vh;
+            background-color: hotpink;
+        }
+        .img2
+        {
+            height: 10vh;
+            width: 30vh;
+            background-color: hotpink;
+        }
+        .lefft{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(193, 187, 187);
+            width: 50vh;
+            height: 123vh;
+            gap: 25px;
+            padding: 15px;
+        }
+        .screen{
+            display: flex;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 15px;
+        }
+        footer{
+            background-color: rgb(149, 119, 80);
+            padding: 60px;
+            font-size: 35px;
+            height: 2vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header><b><i>LarRy</i></b></header>
+    <div class="head">
+        <ul> 
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Design</li>
+            <li>Contact</li>
+            <li><input class="search" type="text" placeholder="Type to Search"></li>
+        </ul>
+    </div>
+    <div class="screen">
+        <div class="lefft">
+            <p style="font-size: 20px;"><b>About Me</b></p>
+    
+            <p style="font-size: 15px;"><b>Photo of me:-</b></p>
+            <div class="img1"></div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit nisi esse nostrum iusto repellendus perspiciatis.</p>
+            <p><b>More text</b></p>
+            <div class="img2"></div>
+            <div class="img2"></div>
+            <div class="img2"></div>
+            <div class="img2"></div>
+        </div>
+        <div class="right">
+            <p style="font-size: 20px; text-transform:uppercase"><b>Title Heading</b></p>
+            <p style="font-size: 15px;"><b>Title description,date</b></p>
+            <div class="img1" style="width: 70vw;"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum tempore, adipisci aliquam quaerat magni asperiores delectus fugiat iusto, sit architecto suscipit in. Sapiente tempore dolore eaque magnam repellendus voluptate ipsum dolores blanditiis animi, architecto sunt quia excepturi. Nobis deserunt qui odio obcaecati iste quibusdam, iusto repellendus reprehenderit porro itaque?, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ducimus at quis aliquam odit dignissimos aspernatur debitis expedita, quas cupiditate eaque soluta reiciendis. Tenetur repudiandae necessitatibus fuga possimus dicta a.</p>
+            <h3>HEADING</h3>
+            <p style="font-size: 15px;"><b>description</b></p>
+            <div class="img1" style="width: 70vw; height: 35vh"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum ducimus veritatis possimus officiis adipisci. Ducimus aspernatur beatae, magnam error tempora provident placeat voluptatum autem, cum impedit natus voluptatem consequatur.</p>
+
+        </div>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
